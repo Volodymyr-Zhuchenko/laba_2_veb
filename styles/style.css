@@ -1,0 +1,81 @@
+/*
+написат назви класів у кебаб кейс
+bem методологія назви класів
+reset style css
+спецефічність селектора css
+переписати шрифти з оригіналу font-family
+ */
+
+body {
+     /*height: 100vh;*/
+    background: linear-gradient(0deg, #FFFFFF 0%, #F3F2FB 100%);
+    font-family: 'Open Sans',sans-serif;
+
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #6259ac;
+
+
+}
+.descrip{
+    margin-top:20px;
+    max-width: 35%;
+    text-align: center;
+    color: #a599a6;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #6259ac;
+    }
+.box:hover {
+    background: linear-gradient(0deg, #F3F2FB 0%, #FFFFFF 100%);
+}
+
+
+
+.image{
+    max-width: 350px;
+    height: 270px;
+
+}
+/*
+btn скорочення button
+ */
+.but_1{
+    /*change for padding*/
+    width: 100px;
+    height: 30px;
+    background-color: #6259ac ;
+    color: white;
+    border: none;
+}
+.but_1:hover {
+    background-color: #574e9d;
+}
+.content_des {
+    color: #a599a6;
+}
+
+
